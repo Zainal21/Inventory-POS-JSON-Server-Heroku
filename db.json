@@ -1,16 +1,77 @@
 {
-  "posts":[
+  "produk":[
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "id" : 1,
+      "nama_produk": "Meja keren",
+      "harga" : 200000,
+      "gambar":"",
+      "is_ready" : true
+    },
+    {
+      "id" : 2,
+      "nama_produk": "Meja keren",
+      "harga" : 200000,
+      "is_ready" : true
+    },
+    {
+      "id" : 3,
+      "nama_produk": "Meja keren",
+      "harga" : 200000,
+      "is_ready" : true
+    },
+    {
+      "id" : 4,
+      "nama_produk": "Meja keren",
+      "harga" : 200000,
+      "is_ready" : true
+    },
+    {
+      "id" : 5,
+      "nama_produk": "Meja keren",
+      "harga" : 200000,
+      "is_ready" : true
     }
   ],
-  "comments" : [
+  "keranjang" : [
     {
       "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "jumlah_pesanan":1,
+      "produk_id": 
+        {
+          "id":1,
+          "nama_produk": "Meja keren",
+          "harga" : 20000,
+          "is_ready" : true
+        }
+    },
+    {
+      "id": 2,
+      "jumlah_pesanan":1,
+      "produk_id": 
+        {
+          "id":2,
+          "nama_produk": "Meja keren",
+          "harga" : 20000,
+          "is_ready" : true
+        }
+    }
+  ],
+  "pesanan":[
+    {
+      "id":1,
+      "no_meja":3,
+      "nama":"Zain",
+      "keranjang_id":{
+        "id": 0,
+        "jumlah_pesanan":1,
+        "produk_id": 
+          {
+            "id":1,                                                                                                     
+            "nama_produk": "Meja keren",
+            "harga" : 20000,
+            "is_ready" : true
+          }
+      }
     }
   ]
 }
