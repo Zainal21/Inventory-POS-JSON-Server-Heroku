@@ -1,77 +1,44 @@
 {
-  "produk":[
+  "product":[
     {
       "id" : 1,
       "nama_produk": "Meja keren",
       "harga" : 200000,
-      "gambar":"",
+      "gambar":"https://live.staticflickr.com/2569/4013944382_469787def0_z.jpg",
+      "deskripsi":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse doloremque vero dolorem incidunt recusandae voluptatum atque  ",
       "is_ready" : true
     },
     {
       "id" : 2,
       "nama_produk": "Meja keren",
       "harga" : 200000,
+      "gambar":"https://live.staticflickr.com/2569/4013944382_469787def0_z.jpg",
+      "deskripsi":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse doloremque vero dolorem incidunt recusandae voluptatum atque  ",
       "is_ready" : true
     },
     {
       "id" : 3,
       "nama_produk": "Meja keren",
       "harga" : 200000,
+      "gambar":"https://live.staticflickr.com/2569/4013944382_469787def0_z.jpg",
+      "deskripsi":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse doloremque vero dolorem incidunt recusandae voluptatum atque  ",
       "is_ready" : true
     },
     {
       "id" : 4,
       "nama_produk": "Meja keren",
       "harga" : 200000,
+      "gambar":"https://live.staticflickr.com/2569/4013944382_469787def0_z.jpg",
+      "deskripsi":"  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse doloremque vero dolorem incidunt recusandae voluptatum atque  ",
       "is_ready" : true
     },
     {
       "id" : 5,
       "nama_produk": "Meja keren",
       "harga" : 200000,
+      "gambar":"https://live.staticflickr.com/2569/4013944382_469787def0_z.jpg",
+      "deskripsi":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse doloremque vero dolorem incidunt recusandae voluptatum atque  ",
       "is_ready" : true
-    }
-  ],
-  "keranjang" : [
-    {
-      "id": 0,
-      "jumlah_pesanan":1,
-      "produk_id": 
-        {
-          "id":1,
-          "nama_produk": "Meja keren",
-          "harga" : 20000,
-          "is_ready" : true
-        }
-    },
-    {
-      "id": 2,
-      "jumlah_pesanan":1,
-      "produk_id": 
-        {
-          "id":2,
-          "nama_produk": "Meja keren",
-          "harga" : 20000,
-          "is_ready" : true
-        }
-    }
-  ],
-  "pesanan":[
-    {
-      "id":1,
-      "no_meja":3,
-      "nama":"Zain",
-      "keranjang_id":{
-        "id": 0,
-        "jumlah_pesanan":1,
-        "produk_id": 
-          {
-            "id":1,                                                                                                     
-            "nama_produk": "Meja keren",
-            "harga" : 20000,
-            "is_ready" : true
-          }
-      }
     }
   ]
 }
